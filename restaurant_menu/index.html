@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gourmet Haven | Menu</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=Lato:wght@300;400;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <input type="checkbox" id="dark-mode-toggle" class="theme-toggle-checkbox">
+    <label for="dark-mode-toggle" class="theme-toggle-btn" title="Toggle Dark Mode"></label>
+
+    <div class="site-wrapper">
+        <header class="main-header">
+            <div class="header-bg">
+                <img src="images/hero_background.png" alt="Gourmet Restaurant Ambiance" class="hero-img">
+                <div class="overlay"></div>
+            </div>
+            <div class="container header-content">
+                <h1 class="animate-entrance delay-1">Gourmet Haven</h1>
+                <p class="tagline animate-entrance delay-2">Experience the Taste of Elegance</p>
+            </div>
+        </header>
+
+        <nav class="main-nav animate-entrance delay-3">
+            <div class="container">
+                <ul>
+                    <li><a href="#starters">Starters</a></li>
+                    <li><a href="#mains">Mains</a></li>
+                    <li><a href="#desserts">Desserts</a></li>
+                    <li><a href="#drinks">Drinks</a></li>
+                </ul>
+            </div>
+        </nav>
+
+        <main class="menu-content">
+            <div class="container">
+
+                <section id="starters" class="menu-section animate-on-scroll">
+                    <h2>Starters</h2>
+                    <div class="menu-items">
+                        <article class="menu-item">
+                            <div class="card-image">
+                                <img src="images/tomato_soup.png" alt="Truste Tomato Soup">
+                            </div>
+                            <div class="card-content">
+                                <div class="item-header">
+                                    <h3 class="item-name">Truste Tomato Soup</h3>
+                                    <span class="item-price">$8.00</span>
+                                </div>
+                                <p class="item-desc">Roasted organic tomatoes, fresh basil, garlic croutons.</p>
+                            </div>
+                        </article>
+                        <article class="menu-item">
+                            <div class="card-image">
+                                <!-- Placeholder or generic image if specific one not generated -->
+                                <img src="images/starter_generic.png" alt="Crispy Calamari"
+                                    onerror="this.src='images/hero_background.png'">
+                            </div>
+                            <div class="card-content">
+                                <div class="item-header">
+                                    <h3 class="item-name">Crispy Calamari</h3>
+                                    <span class="item-price">$12.50</span>
+                                </div>
+                                <p class="item-desc">Lightly fried squid, spicy marinara, lemon aioli.</p>
+                            </div>
+                        </article>
+                        <article class="menu-item">
+                            <div class="card-image">
+                                <img src="images/bruschetta.png" alt="Bruschetta Trio"
+                                    onerror="this.src='images/hero_background.png'">
+                            </div>
+                            <div class="card-content">
+                                <div class="item-header">
+                                    <h3 class="item-name">Bruschetta Trio</h3>
+                                    <span class="item-price">$10.00</span>
+                                </div>
+                                <p class="item-desc">Tomato basil, olive tapenade, and roasted pepper on rustic bread.
+                                </p>
+                            </div>
+                        </article>
+                    </div>
+                </section>
+
+                <section id="mains" class="menu-section animate-on-scroll">
+                    <h2>Main Courses</h2>
+                    <div class="menu-items">
+                        <article class="menu-item">
+                            <div class="card-image">
+                                <img src="images/grilled_salmon.png" alt="Grilled Salmon">
+                            </div>
+                            <div class="card-content">
+                                <div class="item-header">
+                                    <h3 class="item-name">Grilled Salmon</h3>
+                                    <span class="item-price">$24.00</span>
+                                </div>
+                                <p class="item-desc">Atlantic salmon, quinoa salad, lemon butter sauce.</p>
+                            </div>
+                        </article>
+                        <article class="menu-item">
+                            <div class="card-image">
+                                <img src="images/steak.png" alt="Filet Mignon"
+                                    onerror="this.src='images/hero_background.png'">
+                            </div>
+                            <div class="card-content">
+                                <div class="item-header">
+                                    <h3 class="item-name">Filet Mignon</h3>
+                                    <span class="item-price">$32.00</span>
+                                </div>
+                                <p class="item-desc">8oz tenderloin, garlic mashed potatoes, grilled asparagus, red wine
+                                    reduction.</p>
+                            </div>
+                        </article>
+                        <article class="menu-item">
+                            <div class="card-image">
+                                <img src="images/pasta.png" alt="Tuscan Chicken Pasta"
+                                    onerror="this.src='images/hero_background.png'">
+                            </div>
+                            <div class="card-content">
+                                <div class="item-header">
+                                    <h3 class="item-name">Tuscan Chicken Pasta</h3>
+                                    <span class="item-price">$19.50</span>
+                                </div>
+                                <p class="item-desc">Grilled chicken breast, sun-dried tomatoes, spinach, creamy garlic
+                                    sauce.</p>
+                            </div>
+                        </article>
+                        <article class="menu-item">
+                            <div class="card-image">
+                                <img src="images/risotto.png" alt="Wild Mushroom Risotto"
+                                    onerror="this.src='images/hero_background.png'">
+                            </div>
+                            <div class="card-content">
+                                <div class="item-header">
+                                    <h3 class="item-name">Wild Mushroom Risotto</h3>
+                                    <span class="item-price">$18.00</span>
+                                </div>
+                                <p class="item-desc">Arborio rice, porcini mushrooms, parmesan crisp, truffle oil.</p>
+                            </div>
+                        </article>
+                    </div>
+                </section>
+
+                <section id="desserts" class="menu-section animate-on-scroll">
+                    <h2>Desserts</h2>
+                    <div class="menu-items">
+                        <article class="menu-item">
+                            <div class="card-image">
+                                <img src="images/tiramisu.png" alt="Classic Tiramisu">
+                            </div>
+                            <div class="card-content">
+                                <div class="item-header">
+                                    <h3 class="item-name">Classic Tiramisu</h3>
+                                    <span class="item-price">$9.00</span>
+                                </div>
+                                <p class="item-desc">Espresso-soaked ladyfingers, mascarpone cream, cocoa dust.</p>
+                            </div>
+                        </article>
+                        <article class="menu-item">
+                            <div class="card-image">
+                                <img src="images/cheesecake.png" alt="New York Cheesecake"
+                                    onerror="this.src='images/hero_background.png'">
+                            </div>
+                            <div class="card-content">
+                                <div class="item-header">
+                                    <h3 class="item-name">New York Cheesecake</h3>
+                                    <span class="item-price">$8.50</span>
+                                </div>
+                                <p class="item-desc">Rich creamy cheesecake, berry compote, graham cracker crust.</p>
+                            </div>
+                        </article>
+                        <article class="menu-item">
+                            <div class="card-image">
+                                <img src="images/chocolate_cake.png" alt="Molten Chocolate Cake"
+                                    onerror="this.src='images/hero_background.png'">
+                            </div>
+                            <div class="card-content">
+                                <div class="item-header">
+                                    <h3 class="item-name">Molten Chocolate Cake</h3>
+                                    <span class="item-price">$10.00</span>
+                                </div>
+                                <p class="item-desc">Warm chocolate center, vanilla bean ice cream.</p>
+                            </div>
+                        </article>
+                    </div>
+                </section>
+
+                <section id="drinks" class="menu-section animate-on-scroll">
+                    <h2>Drinks</h2>
+                    <div class="menu-items">
+                        <div class="drink-category">
+                            <div class="category-image">
+                                <img src="images/red_wine.png" alt="Wine Selection">
+                            </div>
+                            <h3>Wine</h3>
+                            <ul>
+                                <li><span>House Red (Glass)</span> <span class="price">$9</span></li>
+                                <li><span>House White (Glass)</span> <span class="price">$9</span></li>
+                                <li><span>Cabernet Sauvignon (Bottle)</span> <span class="price">$45</span></li>
+                            </ul>
+                        </div>
+                        <div class="drink-category">
+                            <div class="category-image">
+                                <img src="images/hero_background.png" alt="Non-Alcoholic">
+                            </div>
+                            <h3>Non-Alcoholic</h3>
+                            <ul>
+                                <li><span>Fresh Lemonade</span> <span class="price">$4</span></li>
+                                <li><span>Iced Tea</span> <span class="price">$3.50</span></li>
+                                <li><span>Sparkling Water</span> <span class="price">$5</span></li>
+                                <li><span>Espresso</span> <span class="price">$3</span></li>
+                            </ul>
+                        </div>
+                    </div>
+                </section>
+
+            </div>
+        </main>
+
+        <footer class="main-footer">
+            <div class="container">
+                <p>&copy; 2026 Tameer Khyber. Gourmet Haven. Open 24/7.</p>
+                <div class="footer-contact-info">
+                    <span>Hyderabad, Pakistan</span>
+                    <span class="separator">|</span>
+                    <span>Phone: 03243690945</span>
+                </div>
+                <div class="social-icons">
+                    <a href="mailto:tameerahmedkhyber@gmail.com" title="Email" class="footer-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"
+                            fill="currentColor">
+                            <path
+                                d="M3 3H21C21.5523 3 22 3.44772 22 4V20C22 20.5523 21.5523 21 21 21H3C2.44772 21 2 20.5523 2 20V4C2 3.44772 2.44772 3 3 3ZM20 7.23792L12.0718 14.338L4 7.21594V19H20V7.23792ZM4.51146 5L12.0619 11.662L19.501 5H4.51146Z">
+                            </path>
+                        </svg>
+                    </a>
+                    <a href="https://github.com/tameer-khyber" target="_blank" rel="noopener noreferrer" title="GitHub"
+                        class="footer-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"
+                            fill="currentColor">
+                            <path
+                                d="M12.001 2C6.47598 2 2.00098 6.475 2.00098 12C2.00098 16.425 4.86298 20.162 8.83798 21.488C9.33798 21.575 9.52598 21.275 9.52598 21.012C9.52598 20.775 9.51298 19.988 9.51298 19.15C6.73798 19.75 6.15098 17.812 6.15098 17.812C5.68898 16.65 5.03798 16.338 5.03798 16.338C4.12598 15.712 5.10098 15.725 5.10098 15.725C6.11298 15.8 6.63798 16.762 6.63798 16.762C7.53798 18.3 8.98798 17.85 9.56298 17.587C9.65098 16.925 9.91298 16.475 10.201 16.225C7.97598 15.975 5.65098 15.112 5.65098 11.475C5.65098 10.438 6.02598 9.587 6.63798 8.925C6.53798 8.675 6.20098 7.688 6.72598 6.362C6.72598 6.362 7.52598 6.1 9.50098 7.438C10.263 7.225 11.076 7.125 11.888 7.125C12.701 7.125 13.513 7.225 14.276 7.438C16.251 6.1 17.051 6.362 17.051 6.362C17.576 7.688 17.238 8.675 17.138 8.925C17.751 9.587 18.126 10.438 18.126 11.475C18.126 15.125 15.788 15.962 13.563 16.212C13.926 16.525 14.238 17.125 14.238 18.062C14.238 19.412 14.226 20.488 14.226 20.812C14.226 21.075 14.413 21.388 14.926 21.288C18.901 19.95 21.751 16.425 21.751 12C21.751 6.475 17.263 2 12.001 2Z">
+                            </path>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+        </footer>
+    </div>
+</body>
+
+</html>
